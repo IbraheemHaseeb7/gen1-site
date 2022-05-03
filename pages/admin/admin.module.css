@@ -1,0 +1,36 @@
+.admin_container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #c5c6c7;
+}
+
+.login_container,
+.logout_container {
+  border: 3px solid #66fcf1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.logout_container {
+  width: 15rem;
+  padding: 1rem;
+}
+
+.login_container {
+  width: 20rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

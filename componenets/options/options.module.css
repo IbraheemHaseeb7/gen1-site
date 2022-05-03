@@ -1,0 +1,63 @@
+.options_container {
+  width: 13rem;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-right: 2px solid #66fcf1;
+  color: #c5c6c7;
+}
+
+.options_inner_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  border-top: 1px solid #c5c6c72f;
+  padding-top: 1rem;
+}
+
+.option {
+  width: 95%;
+  height: 3rem;
+  display: grid;
+  place-items: center;
+}
+
+.option_name {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  justify-items: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.span_name {
+  justify-self: start;
+  transition: all 0.2s ease;
+}
+
+.span_logo {
+  transition: all 0.2s ease;
+}
+
+.option_name:hover {
+  background-color: #45a29e;
+}
+
+.logo {
+  width: 100%;
+  height: 6rem;
+  object-fit: cover;
+}
+
+.option_name:hover .span_name,
+.option_name:hover .span_logo {
+  color: #1f2833;
+}

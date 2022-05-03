@@ -1,0 +1,65 @@
+.create {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  bottom: 3rem;
+  right: 3rem;
+  color: #1f2833;
+  background-color: #45a29e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10rem;
+  border: 2px solid #66fcf1;
+  cursor: pointer;
+}
+
+.create:hover {
+  background-color: #66fcf1;
+}
+
+/* MENU */
+
+.menu_container {
+  position: absolute;
+  bottom: 4rem;
+  margin: 0;
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+
+.menu_btn {
+  background-color: #45a29e;
+  color: #1f2833;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin: 0.5rem;
+  animation-name: reveal;
+  animation-duration: 0.35s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  opacity: 0;
+  border-radius: 10rem;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu_btn:hover {
+  background-color: #66fcf1;
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

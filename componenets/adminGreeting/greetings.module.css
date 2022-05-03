@@ -1,0 +1,12 @@
+.greetings_container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: calc(100% - 13rem);
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #c5c6c72f;
+  color: #c5c6c7;
+}
