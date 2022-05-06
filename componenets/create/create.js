@@ -7,9 +7,11 @@ export default function Create() {
   const [show, setShow] = useState(false);
 
   return (
-    <div className={styles.create} onClick={() => setShow(!show)}>
-      <AddIcon />
+    <>
+      <div className={styles.create} onClick={() => setShow(!show)}>
+        <AddIcon />
+      </div>
       {show && <Menu show={show} />}
-    </div>
+    </>
   );
 }

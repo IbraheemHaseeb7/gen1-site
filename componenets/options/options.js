@@ -6,6 +6,7 @@ import FormatListBulletedIcon from "@mui/icons-material/FormatListBulleted";
 import PersonAddAlt1Icon from "@mui/icons-material/PersonAddAlt1";
 import ManageAccountsIcon from "@mui/icons-material/ManageAccounts";
 import LogoutIcon from "@mui/icons-material/Logout";
+import PeopleIcon from "@mui/icons-material/People";
 
 const options = [
   {
@@ -31,6 +32,12 @@ const options = [
     id: 5,
     route: "/admin/todo",
     icon: <PersonAddAlt1Icon />,
+  },
+  {
+    name: "Meetings",
+    id: 8,
+    route: "/admin/meetings",
+    icon: <PeopleIcon />,
   },
   {
     name: "Account",
